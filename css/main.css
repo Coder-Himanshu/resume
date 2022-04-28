@@ -259,6 +259,28 @@ footer a:not(.nav-link) {
   .marker {
     padding-right: 0;
   }
+
+  .main {
+    margin-left: 10em;
+    margin-top: 2.3em !important;
+  }
+
+  .linkedin {
+    display: block !important;
+    margin-left: 1em;
+    margin-top: 2em;
+  }
+
+  .main1 {
+    margin-left: 10em;
+    margin-top: 0em !important;
+    margin-bottom: 3em;
+  }
+
+  .img-fluid {
+    margin-left: 0 !important;
+    margin-top: -7em !important;
+  }
   .marker:after {
     bottom: -30px;
     left: 50%;
@@ -288,6 +310,7 @@ svg {
 .main{
   left: 50%;
   transform: translateY(0%) rotate(45deg);
+  margin-top: 0em;
   
                 opacity: 0;
 }

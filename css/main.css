@@ -263,6 +263,10 @@ footer a:not(.nav-link) {
   margin-left: -60px;
 }
 
+.mt-5 {
+  margin-top: 8rem!important;
+}
+
 @media (max-width: 575.98px) {
   .marker {
     padding-right: 0;
@@ -281,8 +285,8 @@ footer a:not(.nav-link) {
 
   .main1 {
     margin-left: 10em;
-    margin-top: 0em !important;argin-left: 0 !important;
-    margin-top: -7em !important;
+    margin-top: 0em !important;
+    margin-bottom: 3em;
   }
   .marker:after {
     bottom: -30px;
@@ -295,6 +299,14 @@ footer a:not(.nav-link) {
 
   .ftDown {
     display: block;
+  }
+  .img-fluid {
+    margin-left: 0 !important;
+  }
+
+  .mt-5 {
+    margin-top: 2rem!important;
+    margin-bottom: 4em;
   }
 }
 

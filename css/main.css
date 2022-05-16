@@ -53,6 +53,11 @@ html {
   line-height: 2.5rem;
 }
 
+.ftDown {
+  display: flex;
+  justify-content: center;
+}
+
 .nav-link:hover,
 .nav-link:focus,
 .active .nav-link {
@@ -276,18 +281,20 @@ footer a:not(.nav-link) {
 
   .main1 {
     margin-left: 10em;
-    margin-top: 0em !important;
-    margin-bottom: 3em;
-  }
-
-  .img-fluid {
-    margin-left: 0 !important;
+    margin-top: 0em !important;argin-left: 0 !important;
     margin-top: -7em !important;
   }
   .marker:after {
     bottom: -30px;
     left: 50%;
     margin-left: -60px;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .ftDown {
+    display: block;
   }
 }
 
@@ -309,6 +316,7 @@ svg {
   font-size: 1.6rem;
   line-height: 2.5rem;
 }
+
 
 .main{
   left: 50%;
